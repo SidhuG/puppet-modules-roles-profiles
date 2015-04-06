@@ -9,7 +9,7 @@
     - "locs/%{location}"
     - "roles/%{role}"
     - "env/%{environment}"
-    - default
+    - common
 
 :yaml:
 # datadir is empty here, so hiera uses its defaults:
