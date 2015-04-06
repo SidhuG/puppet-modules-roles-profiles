@@ -3,4 +3,4 @@ motd::template: |
   Role: <%= @role %>
   Environment: <%= @environment %>
   FQDN: <%= @fqdn %>
-  CUSTOM MOTD FOR ROLE puppetmaster
+  MOTD CUSTOMIZED FOR puppet.example server

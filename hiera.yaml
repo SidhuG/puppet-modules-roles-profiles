@@ -3,13 +3,13 @@
   - yaml
 
 :hierarchy:
-    - "fqdn/%{fqdn}"
-    - "env/%{environment}/%{role}/%{location}"
-    - "env/%{environment}/%{role}"
-    - "locs/%{location}"
-    - "roles/%{role}"
-    - "env/%{environment}"
-    - common
+    - "fqdn/%{fqdn}/%{module_name}"
+    - "env/%{environment}/%{role}/%{location}/%{module_name}"
+    - "env/%{environment}/%{role}/%{module_name}"
+    - "locs/%{location}/%{module_name}"
+    - "roles/%{role}/%{module_name}"
+    - "env/%{environment}/%{module_name}"
+    - common/%{module_name}
 
 :yaml:
 # datadir is empty here, so hiera uses its defaults:
