@@ -1,0 +1,6 @@
+motd::template: |
+  Location: <%= @location %>
+  Role: <%= @role %>
+  Environment: <%= @environment %>
+  FQDN: <%= @fqdn %>
+  CUSTOM MOTD FOR ROLE puppetmaster
